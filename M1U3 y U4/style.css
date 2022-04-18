@@ -1,0 +1,47 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  color: antiquewhite;
+  background: #131313;
+  background: radial-gradient(circle farthest-corner at center center, #131313 0%, #686767 90%);
+  background: -webkit-radial-gradient(circle farthest-corner at center center, #131313 0%, #686767 90%);
+  background: -moz-radial-gradient(circle farthest-corner at center center, #131313 0%, #686767 90%);
+  word-spacing: 5px;
+}
+
+nav {
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 35px;
+}
+
+#foto-perfil {
+  text-align: center;
+  margin: 20px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.parrafo {
+  text-align: justify;
+  font-size: 15px;
+  margin: 20px;
+  line-height: 30px;
+}
+
+#lista-habilidades {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+footer {
+  text-align: center;
+}
