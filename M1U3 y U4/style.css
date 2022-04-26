@@ -23,13 +23,13 @@ header {
   margin: 20px;
 }
 
-.subtitulo {
+h3 {
   text-align: center;
   font-size: 25px;
   text-decoration: underline;
 }
 
-.parrafo {
+p {
   text-align: justify;
   font-size: 15px;
   margin: 20px;
@@ -44,4 +44,5 @@ header {
 
 footer {
   text-align: center;
-}
+  font-size: 10;
+  }
