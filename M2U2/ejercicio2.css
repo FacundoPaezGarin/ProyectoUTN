@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.contenedor {
+    border: 2px solid black;    
+    width: 40vw;
+    height:90vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor div {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.cubo1 {
+    background-color: red;
+}
+
+.cubo2 {
+    background-color: blue;
+}
+
+.cubo3 {
+    background-color: green;
+}
