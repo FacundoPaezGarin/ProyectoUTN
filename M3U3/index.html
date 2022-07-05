@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+
+// Ejercicio 1
+var distancia = prompt("Ingrese una distancia: ", "");
+
+if (distancia>=0 && distancia<=1000) {
+  console.log("Me conviene ir a pie");
+}
+else if (distancia>1000 && distancia<=10000){
+  console.log("Me conviene ir en bici");
+}
+else if (distancia>10000 && distancia<=30000) {
+  console.log("Me conviene ir en colectivo");
+}
+else if (distancia>30000 && distancia<=100000) {
+  console.log("Me conviene ir en auto");
+}
+else {
+  console.log("Mejor me voy en avión");
+}
+
+// Ejercicio 2
+    var numeros = [34, 6, 124, 1000, 75, 2500, 3, 12, 90, 20];
+    var acumulador = 0;
+    for (let i = 0; i < numeros.length; i++) {
+      if (numeros[i] > acumulador) {
+        acumulador = numeros[i];
+      }
+    }
+    console.log(acumulador);
+
+
+
+
+  </script>
+</body>
+
+</html>
